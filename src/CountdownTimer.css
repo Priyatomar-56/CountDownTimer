@@ -1,0 +1,27 @@
+.countdown-timer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.countdown-timer input {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.countdown-timer button {
+  padding: 8px 16px;
+  background-color: #8730f8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.countdown-timer button:hover {
+  background-color: #0056b3;
+}
+
+.time-remaining {
+  font-size: 24px;
+  margin-top: 10px;
+}

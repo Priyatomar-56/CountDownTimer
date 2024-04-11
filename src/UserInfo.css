@@ -1,0 +1,104 @@
+/* UserInfo.css */
+
+/* Center container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: rgb(221, 221, 255);
+}
+
+/* Main content */
+.main-content {
+  width: 400px; /* Adjust as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Search container */
+.search-container {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  font-size: 16px;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #8730f8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Past search terms */
+.past-search-terms {
+  margin-bottom: 20px;
+}
+
+.past-search-terms h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.past-search-terms ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.past-search-terms li {
+  margin-bottom: 5px;
+}
+
+/* User list */
+.user-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-list li:hover {
+  background-color: #e0e0e0;
+}
+
+.user-info {
+  font-size: 18px;
+  color: #333;
+}
+
+.user-info strong {
+  font-weight: bold;
+  color: #007bff;
+}
+
+button{
+    color: rgb(83, 51, 243);
+}

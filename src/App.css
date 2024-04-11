@@ -1,0 +1,26 @@
+/* App.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 120px;
+}
+.Container1 {
+  border: 2px solid gray;
+  border-radius: 8px;
+  padding: 30px;
+}
+.content {
+  text-align: center;
+}
+.Container1 {
+  border: 2px solid gray;
+  border-radius: 8px;
+  padding: 30px;
+}
+.shado {
+  background-color: #d5cdff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Example shadow */
+}
